@@ -1,0 +1,1 @@
+A class should always have one responsibility and there should be only a single reason to change it.
