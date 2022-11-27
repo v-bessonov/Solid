@@ -11,34 +11,4 @@ public class Employee
     public string FullName { get; protected set; }
     public DateTime? DateOfBirth { get; protected set; }
     public decimal? Salary { get; protected set; }
-    
-    
-    //biz logic
-
-    public decimal? CalculateEmployeeSalary(Employee employee)
-    {
-        return null;
-    }
-    
-    public decimal? CalculateEmployeeLeaves(Employee employee)
-    {
-        return null;
-    }
-    
-    public decimal? CalculateTaxOnSalary(Employee employee)
-    {
-        return null;
-    }
-    
-    // data persistence logic
-    
-    public Employee SaveEmployee(Employee employee)
-    {
-        return employee;
-    }
-    
-    public Employee UpdateEmployee(Employee employee)
-    {
-        return employee;
-    }
 }
